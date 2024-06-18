@@ -291,5 +291,5 @@ def serve_pdf(filename):
         return str(e)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=3000,host='0.0.0.0')
 
